@@ -4,3 +4,7 @@ body {
 #button-table {
   width:800px;
 }
+#pic-1 {
+  width: 300px;
+  float: left;
+}
