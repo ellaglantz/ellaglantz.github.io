@@ -19,6 +19,9 @@
 #home-header {
   color: #9E22AD;
 }
+#aboutme-table {
+  margin:0 auto;
+}
 #pic-container {
   width: 200px;
   float: left;
