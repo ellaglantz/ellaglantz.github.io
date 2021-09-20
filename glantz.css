@@ -24,3 +24,7 @@
 body {
   background-color: #ffffe0;
 }
+#pic-one {
+  float: left;    
+ margin: 0 0 0 20px;
+}
