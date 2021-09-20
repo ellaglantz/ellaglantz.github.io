@@ -16,6 +16,9 @@
 #aboutme-h1 {
   color:green;
 }
+#home-header {
+  color: purple;
+}
 #pic-container {
   width: 200px;
   float: left;
