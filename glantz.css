@@ -24,6 +24,9 @@
 body {
   background-color: #f6cf86;
 }
+#javapage {
+  bakcground-color: #f57542;
+}
 #pic-one {
   float: left;    
  margin: 0 0 0 20px;
