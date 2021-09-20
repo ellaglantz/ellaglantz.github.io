@@ -18,6 +18,8 @@ body {
 #aboutme-h1 {
   color:green;
 }
-.pic-container {
+#pic-container {
+  width: 100;
   float: left;
+  margin: 10px;
 }
