@@ -1,0 +1,47 @@
+Lecture :10: slides:
+
+-Every variable object (regardless at scope) exists at some memory location(memory address)
+-every memory address corresponds to a unique location in memory
+
+What is a pointer:
+-a special type of variable whose value is the memory address of another variable
+-pointers must be declared before use
+-declaration = type *ptr_name;
+  -single line int *p
+  -delcare multiple int *p1, *p2
+  -can declare pointers and variables on same line
+-address-of operator
+  -used to get the memory address of another variable/object (*&*)
+-deference a pointer
+  -used to get or modify the actual value of a given memory address
+  
+-&
+  -use for:
+    -part of declaration (ex: int &myRef = a;)
+    -used as operator (ex: std::cout<<&myVar
+-*
+  -use for:
+    -part of declaration (ex: int *myPtr = &a;)
+    -used as operator (ex: std::cout << *myPtr;)
+-pointers are actual varaibels  
+-references are alises for existing varaibbles
+
+-both use the ampersand operator (&)
+-references are declared using the ampersand (&)
+-address-of operator (&) is used with pointers
+-cout<<*ptr = print out value because the star. is dereferencing it 
+-cout<<ptr = print out memory address because no star.
+
+-null pointers and functions
+
+  -Pointers can be initialized to an “empty” address (points to nothing) using the nullptr keyword
+    -nullptr is just a pointer literal
+  - Pointers can be passed as parameters to functions
+    -pointers are treated as any other variable
+    -just remember they are holding memory addresses
+    
+-Pointers and arrays
+  -When declaring an array, the array name is treated as a constant pointer (pointing to the base address)
+  
+-Pointer arithmetic
+  -As pointers hold memory addresses (basically integers), we can add integers to it
